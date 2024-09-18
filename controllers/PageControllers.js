@@ -8,10 +8,13 @@ const vistaTables = (req, res)=>{
 const vistaNotifications = (req, res)=>{
     res.render('notifications')
 }
-
+const vistaUsuarios = (req, res)=>{
+    res.render('user')
+}
 
 module.exports = {
     vistaPrincipal,
     vistaTables,
     vistaNotifications,
+    vistaUsuarios,
 }
